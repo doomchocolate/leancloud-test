@@ -21,3 +21,7 @@ def index():
 @app.route('/time')
 def time():
     return str(datetime.now())
+
+@app.route('/test')
+def test():
+    return "this is a test!"
